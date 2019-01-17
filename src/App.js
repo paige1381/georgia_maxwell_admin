@@ -55,13 +55,15 @@ class App extends Component {
         <table>
           <tr>
             <th>Guests</th>
-            <th>Email</th>
+            <th>Email?</th>
           </tr>
           {this.state.data.map(item => {
             return (
               <tr>
                 <td className={!item.email ? "no-email" : ""}>{item.guests}</td>
-                <td>{item.email}</td>
+                <td className={!item.email ? "no-email-red" : ""}>
+                  {item.email ? "Yes" : "No"}
+                </td>
               </tr>
             );
           })}

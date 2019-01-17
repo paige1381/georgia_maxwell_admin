@@ -21,6 +21,11 @@ th {
   font-weight: bold;
 }
 
+.no-email-red {
+  color: red;
+  font-weight: bold;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
