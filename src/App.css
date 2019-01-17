@@ -2,9 +2,23 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+table {
+  margin: 20px auto 60px auto;
+  border: 1px solid black;
+}
+
+td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+th {
+  padding: 10px;
+}
+
+.no-email {
+  font-weight: bold;
 }
 
 .App-header {
